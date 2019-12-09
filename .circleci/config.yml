@@ -5,9 +5,9 @@ jobs:
       - image: circleci/node:12.9.1-browsers
   
     working_directory: ~/repo
-steps:
-      - checkout
-      
-      - run: yarn install
-    
-      - run: yarn test
+    steps:
+          - checkout
+          
+          - run: yarn install
+        
+          - run: yarn test
